@@ -53,5 +53,8 @@ class MainVC: UIViewController {
         resultLbl.isHidden = true
     }
     
+    @IBAction func wageFldClick(_ sender: Any) {
+
+    }
 }
 

@@ -36,6 +36,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="wageFldClick:" destination="BYZ-38-t0r" eventType="touchDown" id="V5W-Kt-1GN"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Стоимость покупки" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kLD-jo-rkk" customClass="CurrencyTxtFld" customModule="window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="20" y="230" width="335" height="40"/>

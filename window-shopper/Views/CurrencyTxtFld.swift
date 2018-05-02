@@ -25,7 +25,7 @@ class CurrencyTxtFld: UITextField {
         formatter.numberStyle = .currency
         formatter.locale = .current
         
-        currencyLbl.text = formatter.currencySymbol
+        currencyLbl.text = "₽"
         addSubview(currencyLbl)
         
     }
